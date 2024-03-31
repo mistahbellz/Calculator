@@ -60,4 +60,8 @@
     font-weight: bold;
     border-radius: 5px;
   }
-  
+  span{
+    position: relative;
+    top: 5px;
+    left: 15px;
+  }
