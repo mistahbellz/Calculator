@@ -11,7 +11,7 @@
   .screen {
     width: 372px;
     height: 73px;
-    background-color: #76ABAE;
+    background-color: white;
     border-radius: 10px;
     margin-bottom: 20px;
   }
@@ -21,23 +21,27 @@
     display: flex;
     gap: 30px;
     height: 352px;
-    background-color: #31363F;
     border-radius: 10px;   
   }
   
     .numeralKeys {
     width: 266px;
     display: grid;
+    grid-template-rows: repeat(4, 76px);
+    grid-template-columns: repeat(3, 76px);
+    gap: 16px;
     font-size: 18px;
     border: none;
     border-radius: 5px;
-    background-color: white;
-     }
+      }
   
   .functionKeys {
     display: grid;
     width: 76px;
-    background-color:red;
+    gap: 16px;
+    grid-template-rows: repeat(4, 76px);
+    grid-template-columns: repeat(1, 76px);
+  
    } 
 
   body{
@@ -47,3 +51,13 @@
     height: 100vh;
     margin: 0;
   }
+  .custom-button {
+    background-color: #31363F;
+    color: #76ABAE;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
