@@ -1,0 +1,49 @@
+.calcBody {
+    width: 373px;
+    height: 470px;
+    border-radius: 5px;
+    background-color: #222831;
+    justify-items: center;
+    padding: 57px 10px 0px;
+    
+  }
+  
+  .screen {
+    width: 372px;
+    height: 73px;
+    background-color: #76ABAE;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .keyPads {
+    width: 372px;
+    display: flex;
+    gap: 30px;
+    height: 352px;
+    background-color: #31363F;
+    border-radius: 10px;   
+  }
+  
+    .numeralKeys {
+    width: 266px;
+    display: grid;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+     }
+  
+  .functionKeys {
+    display: grid;
+    width: 76px;
+    background-color:red;
+   } 
+
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
